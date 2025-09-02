@@ -5,6 +5,7 @@
   <a href="https://arxiv.org/abs/2507.22733" target="_blank"><img src="https://img.shields.io/badge/arXiv-2507.22733-b31b1b.svg" alt="arXiv"></a>
   <a href="[# (Link to Video Presentation - Coming Soon)]" target="_blank"><img src="https://img.shields.io/badge/Video-Coming_Soon-lightgrey?logo=youtube" alt="Video"></a>
   <a href="[# (Link to Poster - Coming Soon)]" target="_blank"><img src="https://img.shields.io/badge/Poster-Coming_Soon-lightgrey" alt="Poster"></a>
+  <a href="https://pixi.sh/"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json&style=flat-square"/></a>
 </p>
 
 <p align="center">
@@ -25,3 +26,7 @@
   <br>
   <em>A linear N-point solver for recovering 3D points and the velocity of a camera undergoing quasi-linear motion, given a set of timestamped observations</em>
 </p>
+
+## Quick Start
+
+TBD
