@@ -1,9 +1,13 @@
 [workspace]
-authors = ["Ericsii <ericfengx@foxmail.com>", "suhang99 <>"]
+authors = [
+  "Ericsii <ericfengx@foxmail.com>",
+  "suhang99 <suhang@shanghaitech.edu.cn>",
+]
 channels = ["conda-forge"]
 name = "AsyncTrack-Motion-Solver"
 platforms = ["linux-64", "linux-aarch64"]
 version = "0.1.0"
+license = "apache2.0"
 
 [tasks]
 generate = { cmd = [
