@@ -29,7 +29,37 @@
 
 ## Quick Start
 
-TBD
+### Build using pixi(recommended)
+
+Pixi is a fast, cross‑platform package and environment manager for reproducible builds. Install Pixi from the official website: https://pixi.sh/
+
+Build steps:
+- Ensure Pixi is installed (see site above).
+- From the repository root, run:
+  ```bash
+  pixi run build
+  ```
+  The first run will resolve dependencies and create an isolated environment automatically.
+- To see available tasks:
+  ```bash
+  pixi run --list
+  ```
+
+### Build from source
+
+```
+cmake -B build .
+cmake --build build
+```
+
+### Run tests
+
+After building, executables are placed in `build/experiments`.
+
+List available executables:
+```bash
+ls  build/experiments
+```
 
 ## License
 
