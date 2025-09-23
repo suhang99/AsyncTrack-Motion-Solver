@@ -36,7 +36,7 @@ target_link_libraries(motion-solver PUBLIC Eigen3::Eigen Ceres::ceres OpenMP::Op
 
 # ------------ Build experiments ---------- #
 if(BUILD_EXPERIMENTS)
-    add_subdirectory(experiments)
+    add_subdirectory(app)
 endif()
 
 # -------- Install & Export Targets ------- #
