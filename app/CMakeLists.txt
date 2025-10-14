@@ -3,7 +3,7 @@ find_package(OpenCV REQUIRED)
 find_package(rerun_sdk REQUIRED)
 
 set(EXECUTABLE_TARGETS
-  noise_exp
+  exp_pixel_noise
 )
 
 foreach(EXECUTABLE_TARGET ${EXECUTABLE_TARGETS})

@@ -19,6 +19,12 @@ generate = { cmd = [
   "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
 ] }
 build = { cmd = ["cmake", "--build", "build", "-j"], depends-on = ["generate"] }
+noise_analysis = { cmd = [
+  "./build/app/exp_pixel_noise",
+  "experiements/sample.yaml",
+], depends-on = [
+  "build",
+] }
 
 [dependencies]
 compilers = "*"

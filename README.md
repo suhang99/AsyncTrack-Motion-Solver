@@ -52,13 +52,14 @@ cmake -B build .
 cmake --build build
 ```
 
-### Run tests
+### Run experiments
 
-After building, executables are placed in `build/experiments`.
+After building, executables are placed in `build/app`.
 
-List available executables:
+Run the Noise Analysis Experiment:
+
 ```bash
-ls  build/experiments
+pixi run noise_analysis
 ```
 
 ## License
