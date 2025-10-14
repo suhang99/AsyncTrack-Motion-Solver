@@ -1,0 +1,33 @@
+rounds: 1000
+output_path: "output.csv"
+random_seed: 42
+noise:
+  pixel:
+    enable: true
+    level: 0
+  timestamp:
+    enable: false
+    level: 0.01
+  rounding: false
+scene:
+  num_landmarks: 10
+  num_measurement: 10
+  landmark_center: [0,0,2]
+  landmark_bbox: 1
+  timestamp_range: [0, 0.2]
+camera:
+  width: 640
+  height: 480
+  intrinsics: [320, 320, 320, 240]
+  distortion: [0.0, 0.0, 0.0, 0.0, 0.0]
+motion:
+  angular_vel_range: [0, 0]
+  linear_vel_range: [1, 1]
+  acceleration_range: [0.0, 0.0]
+  order: 1
+solver:
+  solve_angular: false
+  solve_linear: true
+  solve_two_stage: false
+  linear_preconditioner: false
+verbose: false

@@ -363,3 +363,5 @@ results
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+output.csv
