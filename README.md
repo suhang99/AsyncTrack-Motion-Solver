@@ -3,8 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/ICCV_2025-Highlight-orange" alt="ICCV 2025 Highlight">
   <a href="https://arxiv.org/abs/2507.22733" target="_blank"><img src="https://img.shields.io/badge/arXiv-2507.22733-b31b1b.svg" alt="arXiv"></a>
-  <a href="[# (Link to Video Presentation - Coming Soon)]" target="_blank"><img src="https://img.shields.io/badge/Video-Coming_Soon-lightgrey?logo=youtube" alt="Video"></a>
-  <a href="[# (Link to Poster - Coming Soon)]" target="_blank"><img src="https://img.shields.io/badge/Poster-Coming_Soon-lightgrey" alt="Poster"></a>
+  <a href="https://www.youtube.com/watch?v=c3IQgIaVTFQ" target="_blank"><img src="https://img.shields.io/badge/Video-YouTube-red" alt="Video"></a>
+  <a href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/222.png" target="_blank"><img src="https://img.shields.io/badge/Poster-blue" alt="Poster"></a>
   <a href="https://pixi.sh/"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json&style=flat-square"/></a>
 </p>
 
